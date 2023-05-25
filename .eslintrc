@@ -7,6 +7,17 @@
     "jest": true
   },
   "rules": {
+    "max-len": [
+      "error",
+      {
+        "code": 1000,
+        "tabWidth": 2,
+        "ignoreComments": true, //"comments": 80
+        "ignoreUrls": true,
+        "ignoreStrings": true,
+        "ignoreTemplateLiterals": true
+      }
+    ],
     "camelcase": ["error", {"allow": ["aa_bb"]}],
     "quotes": [2, "single", { "avoidEscape": true }],
     "linebreak-style": 0,

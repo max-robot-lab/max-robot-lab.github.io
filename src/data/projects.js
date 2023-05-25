@@ -3,10 +3,10 @@ const data = [
   {
     title: 'A novel 3-DoF Large Force Haptic Device for the Wrist Motion',
     subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: 'April 2023',
+    image: '/images/projects/HapticWrist1.jpg',
+    date: 'Apr 2023',
     link: '/Porjects/HapticWrist',
-    status: 'Personal Proposed',
+    status: 'personal proposed, target for the potential application in VR devices, teleoperation master, and exoskeleton.',
     desc:
       'Built for a social impact hackathon. '
       + 'NearestDollar connected to your bank accounts, credit cards, '
@@ -14,7 +14,7 @@ const data = [
       + 'the charity of your choice.',
   },
   {
-    title: 'Harvest',
+    title: 'Towards Agile Maneuver for Terrestrial Robots with Spatial Morphable Inertial Appendage',
     subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
     link: 'https://devpost.com/software/harvest',
     image: '/images/projects/harvest.jpg',
