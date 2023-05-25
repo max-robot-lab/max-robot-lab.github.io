@@ -15,6 +15,8 @@ const NotFound = lazy(() => import('./pages/NotFound'));
 const Projects = lazy(() => import('./pages/Projects'));
 const Resume = lazy(() => import('./pages/Resume'));
 const Stats = lazy(() => import('./pages/Stats'));
+const Test = lazy(() => import('./pages/Test'));
+const HapticWrist = lazy(() => import('./pages/project_details/HapticWrist'));
 
 const App = () => (
   <BrowserRouter basename={PUBLIC_URL}>
@@ -27,6 +29,8 @@ const App = () => (
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="*" element={<NotFound />} />
+        <Route path="/Test" element={<Test />} />
+        <Route path="/Porjects/HapticWrist" element={<HapticWrist />} />
       </Routes>
     </Suspense>
   </BrowserRouter>
