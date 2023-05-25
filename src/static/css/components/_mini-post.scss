@@ -7,6 +7,9 @@
 /* Mini Post */
 .cell-container {
   position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+
 
   .description {
     position: absolute;
@@ -44,12 +47,16 @@
   @include vendor( 'display', 'flex');
   @include vendor( 'flex-direction', 'column');
   background: _palette(bg);
-  border: solid 1px _palette(border);
+  border-bottom: solid 1px _palette(border);
+  // border: none;
+  padding-bottom:10px;
   margin: 0 0 _size(element-margin);
+  flex-direction: row-reverse;
 
   .image {
-    overflow: hidden;
-    width: 100%;
+    overflow: clip;
+    width: 25%;
+    display: block;
 
     img {
       @include vendor( 'transition', 'transform #{_duration(transition)} ease-out');
@@ -64,14 +71,17 @@
   }
 
   header {
+    vertical-align: baseline;
+    width: 75%;
     z-index: 2;
-    @include padding(1.25em, 1.25em, (0, 3em, 0, 0));
+    flex-grow: 1;
+    @include padding(0.25em, 1.25em, (0, 0em, 0, 0));
     min-height: 4em;
     position: relative;
     @include vendor( 'flex-grow', '1');
 
     h3 {
-      font-size: 0.7em;
+      font-size: 0.8em;
     }
 
     .published {

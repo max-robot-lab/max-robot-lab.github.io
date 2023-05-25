@@ -1,10 +1,12 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
+    title: 'A novel 3-DoF Large Force Haptic Device for the Wrist Motion',
     subtitle: '2015 BVP Hackathon',
     image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    date: 'April 2023',
+    link: '/Porjects/HapticWrist',
+    status: 'Personal Proposed',
     desc:
       'Built for a social impact hackathon. '
       + 'NearestDollar connected to your bank accounts, credit cards, '

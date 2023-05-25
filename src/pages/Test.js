@@ -2,20 +2,21 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
+
 import Cell from '../components/Projects/Cell';
 import data from '../data/projects';
 
-const Index = () => (
+const Test = () => (
   <Main
-    description={"Jiajun An's personal website. "}
+    title="Projects"
+    description="Learn about Jiajun An's projects."
+    fullPage="true"
   >
-    <article className="post" id="index">
+    <article className="post" id="projects">
       <header>
         <div className="title">
-          <h2><Link to="/">Design Experiences</Link></h2>
-          <p>
-            Design innovations push the upper bound of robot performance.
-          </p>
+          <h2><Link to="/projects">Test</Link></h2>
+          <p>A selection of projects that I&apos;m not too ashamed of</p>
         </div>
       </header>
       {data.map((project) => (
@@ -28,4 +29,4 @@ const Index = () => (
   </Main>
 );
 
-export default Index;
+export default Test;

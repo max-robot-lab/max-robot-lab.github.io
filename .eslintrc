@@ -7,6 +7,7 @@
     "jest": true
   },
   "rules": {
+    "camelcase": ["error", {"allow": ["aa_bb"]}],
     "quotes": [2, "single", { "avoidEscape": true }],
     "linebreak-style": 0,
     "jsx-a11y/anchor-is-valid": ["error", {

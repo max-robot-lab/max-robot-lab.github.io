@@ -15,12 +15,17 @@ const Main = (props) => (
       {props.title && <title>{props.title}</title>}
       <meta name="description" content={props.description} />
     </Helmet>
-    <div id="wrapper">
-      <Navigation />
-      <div id="main">
-        {props.children}
+    <div id="wrapper2">
+      <div id="wrapper">
+        <Navigation />
+        {props.fullPage ? null : <SideBar />}
+        <div id="main">
+          {props.children}
+        </div>
       </div>
-      {props.fullPage ? null : <SideBar />}
+      <div id="footer">
+        <p className="copyright">&copy; Jiajun An, Last updated on May 2023</p>
+      </div>
     </div>
   </HelmetProvider>
 );
