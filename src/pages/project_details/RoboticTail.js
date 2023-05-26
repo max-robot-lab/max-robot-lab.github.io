@@ -31,6 +31,7 @@ const RoboticTail = () => (
         <div>After optimizing the tail mass and length, we integrate the proposed tail designs into terrestrial robots and investigate how the tail spatial morphable inertial property can assist in agile maneuvers.</div>
         <div><center><img width="60%" src={`${process.env.PUBLIC_URL}${'/images/projects/RoboticTailOverall_Refine.svg'}`} alt="details" /></center></div>
         <li>Tail Energized Hopping:</li>
+        <div>1</div>
       </div>
     </article>
   </Main>
