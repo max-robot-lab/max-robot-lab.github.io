@@ -5,8 +5,9 @@ const data = [
     subtitle: '2015 BVP Hackathon',
     image: '/images/projects/HapticWrist1.jpg',
     date: 'Apr 2023',
+    date2: 'Until Now',
     link: '/Porjects/HapticWrist',
-    status: 'personal proposed, target for the potential application in VR devices, teleoperation master, and exoskeleton.',
+    status: 'Personal proposed, target for the potential application in VR devices, teleoperation master, and exoskeleton.',
     desc:
       'Built for a social impact hackathon. '
       + 'NearestDollar connected to your bank accounts, credit cards, '
@@ -16,9 +17,11 @@ const data = [
   {
     title: 'Towards Agile Maneuver for Terrestrial Robots with Spatial Morphable Inertial Appendage',
     subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
+    link: '/Porjects/RoboticTail',
+    image: '/images/projects/RoboticTailOverall_Refine.svg',
+    date: 'Sep 2018',
+    date2: 'Jan 2023',
+    status: 'My Ph.D. thesis project, the objective is to propose novel spatial morphable inertial tail designs with enhanced inertial adjustment capability in three-dimension (3D) space and investigate its capability in assisting agile maneuvers for terrestrial robots.',
     desc:
       'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
       + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
