@@ -7,7 +7,7 @@ const data = [
     date: 'Apr 2023',
     date2: 'Until Now',
     link: '/Porjects/HapticWrist',
-    status: 'Personal proposed, target for the potential application in VR devices, teleoperation master, and exoskeleton.',
+    status: 'Personal proposed project, target for the potential application in VR devices, teleoperation master, and exoskeleton.',
     desc:
       'Built for a social impact hackathon. '
       + 'NearestDollar connected to your bank accounts, credit cards, '
@@ -28,21 +28,26 @@ const data = [
       + 'and nutrient deficiencies at an affordable price for the developing world.',
   },
   {
-    title: 'Space Potato',
+    title: 'Teleoperated legged-manipulator with replaceable instruments',
     subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
+    link: '/Porjects/TeleRepIns',
+    image: '/images/projects/TeleRepIns.svg',
+    status: 'Lab project, we aim at developing a teleoperated legged-manipulator robot system with replaceable instruments for the application in hospitals and logistics warehouses. Now I am the mechanical design group leader. ',
+    date: 'Jan 2023',
+    date2: 'Until Now',
     desc:
       'Launched a potato battery powered weather balloon with two cameras '
       + 'and gps transponder. Resulting photos were published in a coffee table book. '
       + 'You can email me for a copy.',
   },
   {
-    title: 'Cat Detector',
+    title: 'Humanoid Leg Design Based on Parallel Mechanism',
     subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
+    link: '/Porjects/HumanoidLeg',
+    image: '/images/projects/LegParallelMechanism.svg',
+    status: 'Personal proposed project, the objective is to enhance the performance of humanoid leg joints using parallel mechanisms. In the latest design, I propose the utilization of three motors in the hip joint of the leg to collectively drive the hip pitch movement.',
+    date: 'Oct 2019',
+    date2: 'Until Now',
     desc:
       'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
       + 'Over 60,000 cats were classified before server bills made the project too expensive '

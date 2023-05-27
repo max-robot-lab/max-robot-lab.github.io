@@ -13,6 +13,34 @@
 		margin: 0 0 _size(section-spacing) 0;
 		position: relative;
 
+		img{
+			margin-bottom: 25px;
+		}
+
+		.other1{
+			margin-left: 10%;
+		}
+
+		.other2{
+			margin-left: 10%;
+		}
+
+		.videoContainer{
+			margin-left: 10%;
+		}
+
+		span{
+			white-space: wrap;
+		}
+
+		
+		iframe{
+			margin-top: 25px;
+			margin-bottom: 25px;
+			margin-left: 5%;
+			margin-right: 0%;
+		}
+
 		> header {
 			@include vendor('display', 'flex');
 			border-bottom: solid 1px _palette(border);
