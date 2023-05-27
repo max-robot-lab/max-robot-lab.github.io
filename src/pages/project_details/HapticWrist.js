@@ -13,6 +13,7 @@ const HapticWrist = () => (
         <div className="title">
           <h2>A novel 3-DoF Large Force Haptic Device for the Wrist Motion</h2>
           <p>Focused duration: Apr 2023 - Until Now</p>
+          <p>PROJECT TYPE: Personal Proposed PROJECT</p>
         </div>
       </header>
       <div className="project_content">

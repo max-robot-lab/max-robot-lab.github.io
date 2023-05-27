@@ -31,7 +31,16 @@ const RoboticTail = () => (
         <div>After optimizing the tail mass and length, we integrate the proposed tail designs into terrestrial robots and investigate how the tail spatial morphable inertial property can assist in agile maneuvers.</div>
         <div><center><img width="60%" src={`${process.env.PUBLIC_URL}${'/images/projects/RoboticTailOverall_Refine.svg'}`} alt="details" /></center></div>
         <li>Tail Energized Hopping:</li>
-        <div>1</div>
+        <div className="videoContainer"><iframe width="40%" height="300px" src="https://www.youtube.com/embed/Xdk5LIovmog" allow="autoplay; encrypted-media" allowfullscreen="true" title="video" /><iframe width="40%" height="300px" src="https://www.youtube.com/embed/qjxhvkis9MY" allow="autoplay; encrypted-media" allowfullscreen="true" title="video" /></div>
+        <li>3D Aerial Reorientation with a Safe Landing of a Quadruped Robot:</li>
+        <div><center><iframe width="40%" height="300px" src={`${process.env.PUBLIC_URL}${'/videos/ICRA2022_TailedLanding_V2.mp4'}`} allow="autoplay; encrypted-media" allowfullscreen="true" title="video" /></center></div>
+        <li>Tail Assisted Somersault:</li>
+        <div><center><iframe width="40%" height="300px" src="https://www.youtube.com/embed/cikngZnz7OA" allow="autoplay; encrypted-media" allowfullscreen="true" title="video" /></center></div>
+        <h3>Publications:</h3>
+        <div><span>[1] Y. Tang, J. An (co-first author), X. Chu, S. Wang, C. Y. Wong, and K. W. Samuel Au, “Towards Safe Landing of Falling Quadruped Robots Using a 3-DoF Morphable Inertial Tail,” ICRA, 2022.</span></div>
+        <div><span>[2] J. An, X. Ma, C. H. David Lo, W. S. Ng, X. Chu, K. W. Samuel Au, “Design and Experimental Validation of a Monopod Robot with 3-DoF Morphable Inertial Tail for Somersault,” IEEE Transaction of Mechatronics, 2021.</span></div>
+        <div><span>[3] J. An, T. Y. Chung, C. H. D. Lo, C. Ma, X. Chu and K. W. Samuel Au, “Development of a Bipedal Hopping Robot With Morphable Inertial Tail for Agile Locomotion,” BioRob, 2020.</span></div>
+        <div><span>[4] “Morphable inertial appendage, systems and associated methods,” US Provisional Patent, US 62/810,258.</span></div>
       </div>
     </article>
   </Main>
