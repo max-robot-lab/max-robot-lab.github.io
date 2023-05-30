@@ -20,6 +20,7 @@ const HapticWrist = lazy(() => import('./pages/project_details/HapticWrist'));
 const RoboticTail = lazy(() => import('./pages/project_details/RoboticTail'));
 const TeleRepIns = lazy(() => import('./pages/project_details/TeleRepIns'));
 const HumanoidLeg = lazy(() => import('./pages/project_details/HumanoidLeg'));
+const ActiveLegRSR = lazy(() => import('./pages/project_details/ActiveLegRSR'));
 
 const App = () => (
   <BrowserRouter basename={PUBLIC_URL}>
@@ -37,6 +38,7 @@ const App = () => (
         <Route path="/Porjects/RoboticTail" element={<RoboticTail />} />
         <Route path="/Porjects/TeleRepIns" element={<TeleRepIns />} />
         <Route path="/Porjects/HumanoidLeg" element={<HumanoidLeg />} />
+        <Route path="/Porjects/ActiveLegRSR" element={<ActiveLegRSR />} />
       </Routes>
     </Suspense>
   </BrowserRouter>

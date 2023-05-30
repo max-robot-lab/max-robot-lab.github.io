@@ -33,7 +33,7 @@ const RoboticTail = () => (
         <li>Tail Energized Hopping:</li>
         <div className="videoContainer"><iframe width="40%" height="300px" src="https://www.youtube.com/embed/Xdk5LIovmog" allow="autoplay; encrypted-media" allowfullscreen="true" title="video" /><iframe width="40%" height="300px" src="https://www.youtube.com/embed/qjxhvkis9MY" allow="autoplay; encrypted-media" allowfullscreen="true" title="video" /></div>
         <li>3D Aerial Reorientation with a Safe Landing of a Quadruped Robot:</li>
-        <div><center><iframe width="40%" height="300px" src={`${process.env.PUBLIC_URL}${'/videos/ICRA2022_TailedLanding_V2.mp4'}`} allow="autoplay; encrypted-media" allowfullscreen="true" title="video" /></center></div>
+        <div><center><iframe width="40%" height="300px" src="https://www.youtube.com/embed/9JWLTtbqiD8" allow="autoplay; encrypted-media" allowfullscreen="true" title="video" /></center></div>
         <li>Tail Assisted Somersault:</li>
         <div><center><iframe width="40%" height="300px" src="https://www.youtube.com/embed/cikngZnz7OA" allow="autoplay; encrypted-media" allowfullscreen="true" title="video" /></center></div>
         <h3>Publications:</h3>
