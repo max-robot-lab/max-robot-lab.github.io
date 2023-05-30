@@ -1,15 +1,21 @@
 const degrees = [
   {
-    school: 'Stanford University',
-    degree: 'M.S. Computational and Mathematical Engineering',
-    link: 'https://stanford.edu',
-    year: 2016,
+    school: 'The Chinese University of Hong Kong',
+    degree: 'Ph.D. Mechanical and Automation Engineering',
+    link: 'https://en.wikipedia.org/wiki/Chinese_University_of_Hong_Kong',
+    year: 2023,
   },
   {
-    school: 'University at Buffalo',
-    degree: 'B.S. Electrical Engineering, Computer Engineering',
-    link: 'https://buffalo.edu',
-    year: 2012,
+    school: 'Purdue University',
+    degree: 'M.S. Mechanical Engineering',
+    link: 'https://en.wikipedia.org/wiki/Purdue_University',
+    year: 2018,
+  },
+  {
+    school: 'Shanghai Jiao Tong University (SJTU)',
+    degree: 'B.S. Mechanical Engineering',
+    link: 'https://en.wikipedia.org/wiki/Shanghai_Jiao_Tong_University',
+    year: 2017,
   },
 ];
 

@@ -53,6 +53,32 @@ const data = [
       + 'Over 60,000 cats were classified before server bills made the project too expensive '
       + 'to continue hosting.',
   },
+  {
+    title: 'Design and Experimental Verification of a 6-DoF Tailed Monopod Robot with a 3-DoF Active Leg',
+    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
+    link: '/Porjects/ActiveLegRSR',
+    image: '/images/projects/ActiveLegRSR.svg',
+    status: 'Lab project, the objective is to propose a 6-DoF tailed monopod robot by integrating a 3-DoF omni-directional leg with our 3-DoF morphable inertial tail. The goal is to construct a highly agile robot capable of executing more agile behaviors.',
+    date: 'Jan 2020',
+    date2: 'Jul 2020',
+    desc:
+      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
+      + 'Over 60,000 cats were classified before server bills made the project too expensive '
+      + 'to continue hosting.',
+  },
+  // {
+  //   title: 'Design of a Humanoid Dexterous robot hand',
+  //   subtitle: 'A convolutional neural network to classify cats! (and dogs)',
+  //   link: '/Porjects/DexterousHand',
+  //   image: '/images/projects/DexterousHand.svg',
+  //   status: 'Lab project, the objective is to develop an innovative drive-by-wire approach for humanoid robot finger design, while simultaneously increasing the degree of freedom (DoF) of the robot hand from 13 to 22. Additionally, we aim to integrate new angle sensors, haptic sensors, and temperature sensors into the design of the robot hand.',
+  //   date: 'Jun 2017',
+  //   date2: 'Aug 2017',
+  //   desc:
+  //     'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
+  //     + 'Over 60,000 cats were classified before server bills made the project too expensive '
+  //     + 'to continue hosting.',
+  // },
 ];
 
 export default data;
