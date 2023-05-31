@@ -12,13 +12,13 @@ const routes = [
     label: 'Resume',
     path: '/resume',
   },
+  {
+    label: 'Design Projects',
+    path: '/projects',
+  },
   // {
-  //   label: 'Projects',
-  //   path: '/projects',
-  // },
-  // {
-  //   label: 'Stats',
-  //   path: '/stats',
+  //   label: 'Other Projects',
+  //   path: '/otherprojects',
   // },
   // {
   //   label: 'Contact',

@@ -66,19 +66,32 @@ const data = [
       + 'Over 60,000 cats were classified before server bills made the project too expensive '
       + 'to continue hosting.',
   },
-  // {
-  //   title: 'Design of a Humanoid Dexterous robot hand',
-  //   subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-  //   link: '/Porjects/DexterousHand',
-  //   image: '/images/projects/DexterousHand.svg',
-  //   status: 'Lab project, the objective is to develop an innovative drive-by-wire approach for humanoid robot finger design, while simultaneously increasing the degree of freedom (DoF) of the robot hand from 13 to 22. Additionally, we aim to integrate new angle sensors, haptic sensors, and temperature sensors into the design of the robot hand.',
-  //   date: 'Jun 2017',
-  //   date2: 'Aug 2017',
-  //   desc:
-  //     'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-  //     + 'Over 60,000 cats were classified before server bills made the project too expensive '
-  //     + 'to continue hosting.',
-  // },
+  {
+    title: 'Design of a Humanoid Dexterous robot hand',
+    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
+    link: '/Porjects/DexterousHand',
+    image: '/images/projects/DexterousHand.svg',
+    status: 'Lab project, the objective is to develop an innovative drive-by-wire approach for humanoid robot finger design, while simultaneously increasing the degree of freedom (DoF) of the robot hand from 13 (previous version) to 22. Additionally, we aim to integrate new angle sensors, haptic sensors, and temperature sensors into the design of the robot hand.',
+    date: 'Jun 2017',
+    date2: 'Aug 2017',
+    desc:
+      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
+      + 'Over 60,000 cats were classified before server bills made the project too expensive '
+      + 'to continue hosting.',
+  },
+  {
+    title: 'Design of Foldable Four-rotor Unmanned Aerial Vehicles (UAV)',
+    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
+    link: '/Porjects/FoldableUAV',
+    image: '/images/projects/FoldableUAV.svg',
+    status: 'Course project, the objective is to develop foldable models of four-rotor UAVs and design their internal mechanisms for structural coordination and synchronization. I am the project group leader.',
+    date: 'Apr 2015',
+    date2: 'Aug 2015',
+    desc:
+      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
+      + 'Over 60,000 cats were classified before server bills made the project too expensive '
+      + 'to continue hosting.',
+  },
 ];
 
 export default data;

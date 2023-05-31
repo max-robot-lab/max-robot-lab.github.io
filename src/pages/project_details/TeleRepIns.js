@@ -13,7 +13,7 @@ const TeleRepIns = () => (
         <div className="title">
           <h2>Teleoperated legged-manipulator with replaceable instruments</h2>
           <p>Focused duration: Jan 2023 - Until Now</p>
-          <p>PROJECT TYPE: Lab PROJECT (SUPERVISOR: PROFESSOR AU, KWOK WAI SAMUEL)</p>
+          <p>PROJECT TYPE: Lab PROJECT (SUPERVISOR: <a href="https://biomedirobotics.com/au-kwok-wai-samuel/">PROFESSOR AU, KWOK WAI SAMUEL</a>)</p>
           <p>Mechanical Design Group: Group Leader, 2 people</p>
         </div>
       </header>
@@ -25,6 +25,8 @@ const TeleRepIns = () => (
         <div><center><img width="40%" src={`${process.env.PUBLIC_URL}${'/images/projects/TeleRepIns.svg'}`} alt="details" /></center></div>
         <h3>Replaceable Instrument Device Design (Initial):</h3>
         <div><center><iframe width="40%" height="300px" src="https://www.youtube.com/embed/915ktWvYpSU" allow="autoplay; encrypted-media" allowfullscreen="true" title="video" /></center></div>
+        <h3>Teleoperation Master System Building:</h3>
+        <div><center><img width="60%" src={`${process.env.PUBLIC_URL}${'/images/projects/TeleRepInsMaster.svg'}`} alt="details" /></center></div>
         <h3>Reference:</h3>
         <div><span>[1] A. SaLoutos, E. Stanger-Jones, and S. Kim, “Fast Reflexive Grasping with a Proprioceptive Teleoperation Platform,” IROS, 2022.</span></div>
       </div>

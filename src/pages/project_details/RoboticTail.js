@@ -12,7 +12,7 @@ const RoboticTail = () => (
         <div className="title">
           <h2>Towards Agile Maneuver for Terrestrial Robots with Spatial Morphable Inertial Appendage</h2>
           <p>Focused duration: Sep 2018 - Jan 2023</p>
-          <p>Project Type: Ph.D. thesis project (Supervisor: Professor Au, Kwok Wai Samuel)</p>
+          <p>Project Type: Ph.D. thesis project (Supervisor: <a href="https://biomedirobotics.com/au-kwok-wai-samuel/">Professor Au, Kwok Wai Samuel)</a></p>
         </div>
       </header>
       <div className="project_content">
