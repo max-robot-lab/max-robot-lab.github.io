@@ -3,21 +3,21 @@ import React from 'react';
 
 import Main from '../layouts/Main';
 
-import Education from '../components/Resume/Education';
-import Experience from '../components/Resume/Experience';
+// import Education from '../components/Resume/Education';
+// import Experience from '../components/Resume/Experience';
 // import Skills from '../components/Resume/Skills';
 // import Courses from '../components/Resume/Courses';
 // import References from '../components/Resume/References';
 
 // import courses from '../data/resume/courses';
-import degrees from '../data/resume/degrees';
-import work from '../data/resume/work';
+// import degrees from '../data/resume/degrees';
+// import work from '../data/resume/work';
 // import { skills, categories } from '../data/resume/skills';
 
 // NOTE: sections are displayed in order defined.
 const sections = {
-  Education: () => <Education data={degrees} />,
-  Experience: () => <Experience data={work} />,
+  // Education: () => <Education data={degrees} />,
+  // Experience: () => <Experience data={work} />,
   // Skills: () => <Skills skills={skills} categories={categories} />,
   // Courses: () => <Courses data={courses} />,
   // References: () => <References />,
@@ -44,6 +44,9 @@ const Resume = () => (
       {Object.entries(sections).map(([name, Section]) => (
         <Section key={name} />
       ))}
+      <object data="/images/CV_T2_ICRA_V2.pdf" type="application/pdf" width="100%" height="1200px">
+        <p height="600px">Alternative text - include a link <a href="/images/CV_T2_ICRA_V2.pdf">to the PDF!</a></p>
+      </object>
     </article>
   </Main>
 );
