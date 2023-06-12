@@ -12,7 +12,7 @@ const Index = () => (
     <article className="post" id="index">
       <header>
         <div className="title">
-          <h2><Link to="/">Design Experiences</Link></h2>
+          <h2><Link to="/">Design Experiences (Selected)</Link></h2>
           <p>
             Design innovations push the upper bound of robot performance.
           </p>

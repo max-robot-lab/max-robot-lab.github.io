@@ -24,6 +24,8 @@ const HumanoidLeg = lazy(() => import('./pages/project_details/HumanoidLeg'));
 const ActiveLegRSR = lazy(() => import('./pages/project_details/ActiveLegRSR'));
 const DexterousHand = lazy(() => import('./pages/project_details/DexterousHand'));
 const FoldableUAV = lazy(() => import('./pages/project_details/FoldableUAV'));
+const TailRopeRobot = lazy(() => import('./pages/project_details/TailRopeRobot'));
+const FlipBot = lazy(() => import('./pages/project_details/FlipBot'));
 
 const App = () => (
   <BrowserRouter basename={PUBLIC_URL}>
@@ -45,6 +47,8 @@ const App = () => (
         <Route path="/Porjects/ActiveLegRSR" element={<ActiveLegRSR />} />
         <Route path="/Porjects/DexterousHand" element={<DexterousHand />} />
         <Route path="/Porjects/FoldableUAV" element={<FoldableUAV />} />
+        <Route path="/Porjects/TailRopeRobot" element={<TailRopeRobot />} />
+        <Route path="/Porjects/FlipBot" element={<FlipBot />} />
       </Routes>
     </Suspense>
   </BrowserRouter>

@@ -18,6 +18,7 @@
         "ignoreTemplateLiterals": true
       }
     ],
+    "indent": ["off"],
     "camelcase": ["error", {"allow": ["aa_bb"]}],
     "quotes": [2, "single", { "avoidEscape": true }],
     "linebreak-style": 0,

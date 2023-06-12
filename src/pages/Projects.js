@@ -4,7 +4,7 @@ import React from 'react';
 import Main from '../layouts/Main';
 
 import Cell from '../components/Projects/Cell';
-import data from '../data/projects';
+import data from '../data/project_details';
 
 const Projects = () => (
   <Main
