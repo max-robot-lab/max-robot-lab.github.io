@@ -19,7 +19,8 @@ const FoldableUAV = () => (
       </header>
       <div className="project_content">
         <h3>Introduction:</h3>
-        <p>In this project, I lead our group to develop foldable models of four-rotor UAVs and design their internal mechanisms for structural coordination and synchronization. I am the project group leader.</p>
+        <p>In this project, I lead our group to develop foldable models of four-rotor UAVs and design their internal mechanisms. I am the project group leader.</p>
+        <p>The design reduced the quadrotor size by 46% after folding.</p>
         <div><center><img width="80%" src={`${process.env.PUBLIC_URL}${'/images/projects/FoldableUAVDetails.svg'}`} alt="details" /></center></div>
       </div>
     </article>
