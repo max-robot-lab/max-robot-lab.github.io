@@ -5,7 +5,7 @@ import { faEnvelope } from '@fortawesome/free-regular-svg-icons/faEnvelope';
 
 const data = [
   {
-    link: '7iajun4n@gmail.com',
+    link: 'mailto:7iajun4n@gmail.com',
     label: 'Email',
     icon: faEnvelope,
   },
