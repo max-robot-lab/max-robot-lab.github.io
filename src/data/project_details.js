@@ -67,7 +67,6 @@ const data = [
       + 'to continue hosting.',
   },
   {
-<<<<<<< HEAD
     title: 'Design of a Tailed Quadruped Robot for Walking on Pipes and Ropes',
     subtitle: '2015 BVP Hackathon',
     image: '/images/projects/TailRopeRobot.svg',
@@ -96,17 +95,11 @@ const data = [
       + 'the charity of your choice.',
   },
   {
-=======
->>>>>>> d79243557f27ffa4547cf406f3003e1c3cd0c56f
-    title: 'Design of a Humanoid Dexterous robot hand',
+   title: 'Design of a Humanoid Dexterous robot hand',
     subtitle: 'A convolutional neural network to classify cats! (and dogs)',
     link: '/Porjects/DexterousHand',
     image: '/images/projects/DexterousHand.svg',
-<<<<<<< HEAD
     status: 'Lab project, the objective is to develop an innovative cable-driven approach for humanoid robot finger design, while simultaneously increasing the degree of freedom (DoF) of the robot hand from 13 (previous version) to 22. Additionally, we aim to integrate new angle sensors, haptic sensors, and temperature sensors into the robot hand design.',
-=======
-    status: 'Lab project, the objective is to develop an innovative drive-by-wire approach for humanoid robot finger design, while simultaneously increasing the degree of freedom (DoF) of the robot hand from 13 (previous version) to 22. Additionally, we aim to integrate new angle sensors, haptic sensors, and temperature sensors into the design of the robot hand.',
->>>>>>> d79243557f27ffa4547cf406f3003e1c3cd0c56f
     date: 'Jun 2017',
     date2: 'Aug 2017',
     desc:

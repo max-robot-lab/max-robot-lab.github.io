@@ -1,7 +1,6 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-<<<<<<< HEAD
     title: 'Design of a Engineer Robot for RoboMaster Robotics Competition 2018',
     subtitle: '2015 BVP Hackathon',
     image: '/images/projects/RoboMaster2018.svg',
@@ -9,15 +8,6 @@ const data = [
     date2: 'May 2018',
     link: '/Porjects/RoboMaster2018',
     status: 'In the competition, the Engineer robot has the task of landing on resource islands that have stairs, using a sophisticated grasping mechanism to securely grip ammunition boxes, and efficiently replenishing ammunition. Once replenished, the Engineer robot then transfers the ammunition to other robots in need.',
-=======
-    title: 'Design of a Tailed Quadruped Robot for Walking on Pipes and Ropes',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/TailRopeRobot.svg',
-    date: 'Jun 2021',
-    date2: 'Aug 2021',
-    link: '/Porjects/TailRopeRobot',
-    status: 'Personal proposed project, inspired by the agile movements of rodents traversing ropes and pipes, this project aims to explore the application of a 3-DoF morphable inertial tail to assist quadruped robots in achieving challenging walking movements on pipes and ropes.',
->>>>>>> d79243557f27ffa4547cf406f3003e1c3cd0c56f
     desc:
       'Built for a social impact hackathon. '
       + 'NearestDollar connected to your bank accounts, credit cards, '
@@ -25,7 +15,6 @@ const data = [
       + 'the charity of your choice.',
   },
   {
-<<<<<<< HEAD
     title: 'Purdue Mechatronics Robot Competition 2017',
     subtitle: '2015 BVP Hackathon',
     image: '/images/projects/Others/BallCollectCarIntro.svg',
@@ -75,15 +64,6 @@ const data = [
     date2: 'Feb 2014',
     link: '/Porjects/NaoGrasp',
     status: 'In the competition, teams programme the strategies and motion trajectories for NAO robot to realize automatically cleaning specified trashes that are mimicked by various two-colored cylinders in a certain area. Our team achieved the gold award (3 people team).',
-=======
-    title: 'Design of a Tailed Quadruped Robot Towards Various Somersault Motions',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/FlipBot.svg',
-    date: 'Jun 2021',
-    date2: 'Aug 2021',
-    link: '/Porjects/FlipBot',
-    status: 'Personal proposed project, inspired by the agile aerial maneuvers of kangaroo rats, this project aims to explore the application of a 3-DoF morphable inertial tail to assist quadruped robots in achieving various challenging somersault motions.',
->>>>>>> d79243557f27ffa4547cf406f3003e1c3cd0c56f
     desc:
       'Built for a social impact hackathon. '
       + 'NearestDollar connected to your bank accounts, credit cards, '
