@@ -18,7 +18,7 @@ const DexterousHand = () => (
       </header>
       <div className="project_content">
         <h3>Introduction:</h3>
-        <p>In this project, I developed an innovative drive-by-wire approach for humanoid robot finger design, while simultaneously increasing the degree of freedom (DoF) of the robot hand from 13 (previous version) to 22. Additionally, we aim to integrate new angle sensors, haptic sensors, and temperature sensors into the design of the robot hand.</p>
+        <p>In this project, I developed an innovative cable-driven approach for humanoid robot finger design, while simultaneously increasing the degree of freedom (DoF) of the robot hand from 13 (previous version) to 22. Additionally, we aim to integrate new angle sensors, haptic sensors, and temperature sensors into the robot hand design.</p>
         <div><center><img width="80%" src={`${process.env.PUBLIC_URL}${'/images/projects/DexterousHandDetails.svg'}`} alt="details" /></center></div>
       </div>
     </article>
