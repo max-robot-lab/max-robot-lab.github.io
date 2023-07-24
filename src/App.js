@@ -26,11 +26,14 @@ const DexterousHand = lazy(() => import('./pages/project_details/DexterousHand')
 const FoldableUAV = lazy(() => import('./pages/project_details/FoldableUAV'));
 const TailRopeRobot = lazy(() => import('./pages/project_details/TailRopeRobot'));
 const FlipBot = lazy(() => import('./pages/project_details/FlipBot'));
+<<<<<<< HEAD
 const RoboMaster2018 = lazy(() => import('./pages/project_details/RoboMaster2018'));
 const BallCollectCar = lazy(() => import('./pages/project_details/Others/BallCollectCar'));
 const FreeScaleCar = lazy(() => import('./pages/project_details/Others/FreeScaleCar'));
 const RoboCupSoccer = lazy(() => import('./pages/project_details/Others/RoboCupSoccer'));
 const NaoGrasp = lazy(() => import('./pages/project_details/Others/NaoGrasp'));
+=======
+>>>>>>> d79243557f27ffa4547cf406f3003e1c3cd0c56f
 
 const App = () => (
   <BrowserRouter basename={PUBLIC_URL}>
@@ -54,11 +57,14 @@ const App = () => (
         <Route path="/Porjects/FoldableUAV" element={<FoldableUAV />} />
         <Route path="/Porjects/TailRopeRobot" element={<TailRopeRobot />} />
         <Route path="/Porjects/FlipBot" element={<FlipBot />} />
+<<<<<<< HEAD
         <Route path="/Porjects/RoboMaster2018" element={<RoboMaster2018 />} />
         <Route path="/Porjects/BallCollectCar" element={<BallCollectCar />} />
         <Route path="/Porjects/FreeScaleCar" element={<FreeScaleCar />} />
         <Route path="/Porjects/RoboCupSoccer" element={<RoboCupSoccer />} />
         <Route path="/Porjects/NaoGrasp" element={<NaoGrasp />} />
+=======
+>>>>>>> d79243557f27ffa4547cf406f3003e1c3cd0c56f
       </Routes>
     </Suspense>
   </BrowserRouter>
