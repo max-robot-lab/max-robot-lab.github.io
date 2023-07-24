@@ -45,7 +45,7 @@ const Resume = () => (
         <Section key={name} />
       ))}
       <object data="/images/CV_T2_ICRA_V2.pdf" type="application/pdf" width="100%" height="1200px">
-        <p height="600px">Alternative text - include a link <a href="/images/CV_T2_ICRA_V2.pdf">to the PDF!</a></p>
+        <p height="600px">Alternative text - include a link <a href="/images/CV_Jiajun_An_2pages.pdf">to the PDF!</a></p>
       </object>
     </article>
   </Main>
