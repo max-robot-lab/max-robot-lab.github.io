@@ -31,7 +31,7 @@ const data = [
     title: 'Teleoperated legged-manipulator with replaceable instruments',
     subtitle: 'A kickstarter funded potato powered weather balloon.',
     link: '/Porjects/TeleRepIns',
-    image: '/images/projects/TeleRepIns.svg',
+    image: '/images/projects/TeleRepInsDemo.svg',
     status: 'Lab project, we aim at developing a teleoperated legged-manipulator robot system with replaceable instruments for the application in hospitals and logistics warehouses. Now I am the mechanical design group leader. ',
     date: 'Jan 2023',
     date2: 'Until Now',
