@@ -16,7 +16,7 @@ const Otherprojects = () => (
       <header>
         <div className="title">
           <h2><Link to="/projects">Other Projects</Link></h2>
-          <p>A selection of my contest projects</p>
+          <p>A selection of my other experiences in some contests</p>
         </div>
       </header>
       {data.map((project) => (
