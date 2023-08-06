@@ -45,20 +45,20 @@ const App = () => (
         <Route path="/resume" element={<Resume />} />
         <Route path="*" element={<NotFound />} />
         <Route path="/Test" element={<Test />} />
-        <Route path="/Porjects/HapticWrist" element={<HapticWrist />} />
-        <Route path="/Porjects/RoboticTail" element={<RoboticTail />} />
-        <Route path="/Porjects/TeleRepIns" element={<TeleRepIns />} />
-        <Route path="/Porjects/HumanoidLeg" element={<HumanoidLeg />} />
-        <Route path="/Porjects/ActiveLegRSR" element={<ActiveLegRSR />} />
-        <Route path="/Porjects/DexterousHand" element={<DexterousHand />} />
-        <Route path="/Porjects/FoldableUAV" element={<FoldableUAV />} />
-        <Route path="/Porjects/TailRopeRobot" element={<TailRopeRobot />} />
-        <Route path="/Porjects/FlipBot" element={<FlipBot />} />
-        <Route path="/Porjects/RoboMaster2018" element={<RoboMaster2018 />} />
-        <Route path="/Porjects/BallCollectCar" element={<BallCollectCar />} />
-        <Route path="/Porjects/FreeScaleCar" element={<FreeScaleCar />} />
-        <Route path="/Porjects/RoboCupSoccer" element={<RoboCupSoccer />} />
-        <Route path="/Porjects/NaoGrasp" element={<NaoGrasp />} />
+        <Route path="/Projects/HapticWrist" element={<HapticWrist />} />
+        <Route path="/Projects/RoboticTail" element={<RoboticTail />} />
+        <Route path="/Projects/TeleRepIns" element={<TeleRepIns />} />
+        <Route path="/Projects/HumanoidLeg" element={<HumanoidLeg />} />
+        <Route path="/Projects/ActiveLegRSR" element={<ActiveLegRSR />} />
+        <Route path="/Projects/DexterousHand" element={<DexterousHand />} />
+        <Route path="/Projects/FoldableUAV" element={<FoldableUAV />} />
+        <Route path="/Projects/TailRopeRobot" element={<TailRopeRobot />} />
+        <Route path="/Projects/FlipBot" element={<FlipBot />} />
+        <Route path="/Projects/RoboMaster2018" element={<RoboMaster2018 />} />
+        <Route path="/Projects/BallCollectCar" element={<BallCollectCar />} />
+        <Route path="/Projects/FreeScaleCar" element={<FreeScaleCar />} />
+        <Route path="/Projects/RoboCupSoccer" element={<RoboCupSoccer />} />
+        <Route path="/Projects/NaoGrasp" element={<NaoGrasp />} />
       </Routes>
     </Suspense>
   </BrowserRouter>

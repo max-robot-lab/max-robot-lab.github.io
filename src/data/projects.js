@@ -6,7 +6,7 @@ const data = [
     image: '/images/projects/HapticWrist1.jpg',
     date: 'Apr 2023',
     date2: 'Until Now',
-    link: '/Porjects/HapticWrist',
+    link: '/Projects/HapticWrist',
     status: 'Personal proposed project, target for the potential application in VR devices, teleoperation master, and exoskeleton.',
     desc:
       'Built for a social impact hackathon. '
@@ -17,7 +17,7 @@ const data = [
   {
     title: 'Towards Agile Maneuver for Terrestrial Robots with Spatial Morphable Inertial Appendage',
     subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: '/Porjects/RoboticTail',
+    link: '/Projects/RoboticTail',
     image: '/images/projects/RoboticTailOverall_Refine.svg',
     date: 'Sep 2018',
     date2: 'Jan 2023',
@@ -30,7 +30,7 @@ const data = [
   {
     title: 'Teleoperated legged-manipulator with replaceable instruments',
     subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: '/Porjects/TeleRepIns',
+    link: '/Projects/TeleRepIns',
     image: '/images/projects/TeleRepInsDemo.svg',
     status: 'Lab project, we aim at developing a teleoperated legged-manipulator robot system with replaceable instruments for the application in hospitals and logistics warehouses. Now I am the mechanical design group leader. ',
     date: 'Jan 2023',
@@ -43,7 +43,7 @@ const data = [
   {
     title: 'Humanoid Leg Design Based on Parallel Mechanism',
     subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    link: '/Porjects/HumanoidLeg',
+    link: '/Projects/HumanoidLeg',
     image: '/images/projects/LegParallelMechanism.svg',
     status: 'Personal proposed project, the objective is to enhance the performance of humanoid leg joints using parallel mechanisms. In the latest design, I propose the utilization of three motors in the hip joint of the leg to collectively drive the hip pitch movement.',
     date: 'Oct 2019',
@@ -56,7 +56,7 @@ const data = [
   {
     title: 'Design of a Humanoid Dexterous robot hand',
     subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    link: '/Porjects/DexterousHand',
+    link: '/Projects/DexterousHand',
     image: '/images/projects/DexterousHand.svg',
     status: 'Lab project, the objective is to develop an innovative cable-driven approach for humanoid robot finger design, while simultaneously increasing the degree of freedom (DoF) of the robot hand from 13 (previous version) to 22. Additionally, we aim to integrate new angle sensors, haptic sensors, and temperature sensors into the robot hand design.',
     date: 'Jun 2017',
