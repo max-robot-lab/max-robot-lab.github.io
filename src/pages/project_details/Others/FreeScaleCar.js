@@ -20,7 +20,7 @@ const FreeScaleCar = () => (
         <h3>Introduction:</h3>
         <p>In this competition, teams build a self-driving two-wheeled smart car to recognize and navigate the designated track. The fastest car that stays on the track and receives a high technical report score will be the winner.</p>
         <p>Our team won the first prize (3 people team).</p>
-        <div><center><img width="55%" src={`${process.env.PUBLIC_URL}${'/images/projects/Others/FreeScaleCar_details.svg'}`} alt="details" /></center></div>
+        <div><center><img width="55%" src={`${process.env.PUBLIC_URL}${'/images/projects/Others/FreeScaleCar_Details.svg'}`} alt="details" /></center></div>
       </div>
     </article>
   </Main>
