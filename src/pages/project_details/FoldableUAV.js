@@ -13,7 +13,7 @@ const FoldableUAV = () => (
         <div className="title">
           <h2>Design of Foldable Four-rotor Unmanned Aerial Vehicles (UAV)</h2>
           <p>Focused duration: Apr 2015 - Aug 2015</p>
-          <p>PROJECT TYPE: COURSE PROJECT (SUPERVISOR: PROFESSOR ZHAO, Xinming)</p>
+          <p>PROJECT TYPE: COURSE PROJECT (SUPERVISOR: PROFESSOR Xinming Zhao)</p>
           <p>Group: Group Leader, 5 people</p>
         </div>
       </header>

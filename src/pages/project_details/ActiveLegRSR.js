@@ -13,7 +13,7 @@ const ActiveLegRSR = () => (
         <div className="title">
           <h2>Design and Experimental Verification of a 6-DoF Tailed Monopod Robot with a 3-DoF Active Leg</h2>
           <p>Focused duration: Jan 2020 - Jul 2020</p>
-          <p>PROJECT TYPE: LAB PROJECT (SUPERVISOR: <a href="https://biomedirobotics.com/au-kwok-wai-samuel/">PROFESSOR AU, KWOK WAI SAMUEL)</a></p>
+          <p>PROJECT TYPE: LAB PROJECT (SUPERVISOR: <a href="https://biomedirobotics.com/au-kwok-wai-samuel/">PROFESSOR KWOK WAI SAMUEL AU)</a></p>
         </div>
       </header>
       <div className="project_content">

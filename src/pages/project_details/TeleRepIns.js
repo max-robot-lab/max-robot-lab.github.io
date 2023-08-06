@@ -13,7 +13,7 @@ const TeleRepIns = () => (
         <div className="title">
           <h2>Teleoperated legged-manipulator with replaceable instruments</h2>
           <p>Focused duration: Jan 2023 - Until Now</p>
-          <p>PROJECT TYPE: Lab PROJECT (SUPERVISOR: <a href="https://biomedirobotics.com/au-kwok-wai-samuel/">PROFESSOR AU, KWOK WAI SAMUEL</a>)</p>
+          <p>PROJECT TYPE: Lab PROJECT (SUPERVISOR: <a href="https://biomedirobotics.com/au-kwok-wai-samuel/">PROFESSOR KWOK WAI SAMUEL Au</a>)</p>
           <p>Mechanical Design Group: Group Leader</p>
         </div>
       </header>

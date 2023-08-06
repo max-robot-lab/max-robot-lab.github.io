@@ -13,7 +13,7 @@ const DexterousHand = () => (
         <div className="title">
           <h2>Design of a Humanoid Dexterous robot hand</h2>
           <p>Focused duration: Jun 2017 - Aug 2017</p>
-          <p>PROJECT TYPE: LAB PROJECT (SUPERVISOR: <a href="https://scholar.google.com/citations?user=DbviELoAAAAJ&hl=en">PROFESSOR SUN, FUCHUN</a>, <a href="https://scholar.google.com/citations?user=5G47IcIAAAAJ&hl=zh-CN">PROFESSOR FANG, BING</a>)</p>
+          <p>PROJECT TYPE: LAB PROJECT (SUPERVISOR: <a href="https://scholar.google.com/citations?user=DbviELoAAAAJ&hl=en">PROFESSOR FUCHUN SUN</a>, <a href="https://scholar.google.com/citations?user=5G47IcIAAAAJ&hl=zh-CN">PROFESSOR BING FANG</a>)</p>
         </div>
       </header>
       <div className="project_content">
