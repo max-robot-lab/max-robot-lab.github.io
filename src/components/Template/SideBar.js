@@ -20,7 +20,7 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>Hi, I&apos;m Jiajun An (Danny), a Ph.D. graduate from the <a href="https://biomedirobotics.com/">BMT group</a> at the MAE Department, <a href="https://en.wikipedia.org/wiki/Chinese_University_of_Hong_Kong">The Chinese University of Hong Kong</a>, under the supervision of <a href="https://www4.mae.cuhk.edu.hk/peoples/au-kwok-wai-samuel/">Prof. Kwok Wai Samuel Au</a>. Previously, I earned my M.Sc. degree from <a href="https://en.wikipedia.org/wiki/Purdue_University">Purdue University</a> in USA and my B.E. degree from <a href="https://en.wikipedia.org/wiki/Shanghai_Jiao_Tong_University">Shanghai Jiao Tong University</a> in China.</p>
-      <p>I am a roboticist with my focus on mechanical design and hardware development.</p>
+      <p>I am a roboticist with my focus on legged robots and teleoperation robots.</p>
       <ul className="actions">
         <li>
           {!window.location.pathname.includes('/resume') ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/resume" className="button">About Me</Link>}
