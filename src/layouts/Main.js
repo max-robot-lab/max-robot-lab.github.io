@@ -4,27 +4,27 @@ import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 import Analytics from '../components/Template/Analytics';
 import Navigation from '../components/Template/Navigation';
-import SideBar from '../components/Template/SideBar';
+// import SideBar from '../components/Template/SideBar';
 import ScrollToTop from '../components/Template/ScrollToTop';
 
+// {props.fullPage ? null : <SideBar />}
 const Main = (props) => (
   <HelmetProvider>
     <Analytics />
     <ScrollToTop />
-    <Helmet titleTemplate="%s | Jiajun An" defaultTitle="Jiajun An" defer={false}>
+    <Helmet titleTemplate="%s | MAX Lab" defaultTitle="MAX Lab" defer={false}>
       {props.title && <title>{props.title}</title>}
       <meta name="description" content={props.description} />
     </Helmet>
     <div id="wrapper2">
       <div id="wrapper">
         <Navigation />
-        {props.fullPage ? null : <SideBar />}
         <div id="main">
           {props.children}
         </div>
       </div>
       <div id="footer">
-        <p className="copyright">&copy; Jiajun An, Last updated on May 2023</p>
+        <p className="copyright">&copy; MAX Lab, Last updated on May 2025</p>
       </div>
     </div>
   </HelmetProvider>
@@ -35,16 +35,16 @@ Main.propTypes = {
     PropTypes.arrayOf(PropTypes.node),
     PropTypes.node,
   ]),
-  fullPage: PropTypes.bool,
+  // fullPage: PropTypes.bool,
   title: PropTypes.string,
   description: PropTypes.string,
 };
 
 Main.defaultProps = {
   children: null,
-  fullPage: false,
+  // fullPage: false,
   title: null,
-  description: "Jiajun An's personal website.",
+  description: "MAX Lab's website.",
 };
 
 export default Main;

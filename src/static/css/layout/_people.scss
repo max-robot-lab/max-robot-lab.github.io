@@ -1,0 +1,119 @@
+///
+/// Future Imperfect by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* Sidebar */
+
+	#people {
+		margin-right: _size(section-spacing);
+		margin-top: _size(section-spacing);
+		min-width: 22em;
+		/* width: 22em; */
+		display: flex;
+		gap: 2rem;
+
+		.intro {
+			flex: 0 0 25%;   
+			.logo {
+				border-bottom: 0;
+				display: inline-block;
+				margin: 0 0 (_size(element-margin) * 0.5) 0;
+				overflow: hidden;
+				position: relative;
+
+				img {
+					width: 10em;
+					border-radius: 50%;
+					display: block;
+				}
+			}
+
+			header {
+				h2 {
+					font-size: 1.5em;
+					font-weight: _font(weight-heading-extrabold);
+					margin-bottom: 6px;
+				}
+
+				p {
+					font-size: 0.8em;
+					text-transform: none;
+				}
+				h3 {
+					font-size: 0.95em;
+					text-transform: none;
+					font-weight: 600;
+					font-family: "Abril Fatface", serif;
+					color: rgba(0,0,0,.4);
+				}
+			}
+
+			@include breakpoint(large) {
+				margin: 0 0 _size(section-spacing) 0;
+				text-align: center;
+
+				header {
+					h2 {
+						font-size: 2em;
+						margin-bottom: 6px;
+					}
+
+					p {
+						font-size: 0.7em;
+					}
+
+				
+				}
+			}
+
+			@include breakpoint(small) {
+				margin: 0 0 _size(section-spacing-small) 0;
+				padding: 1.25em 0;
+
+				> :last-child {
+					margin-bottom: 0;
+				}
+
+				.logo {
+					margin: 0 0 (_size(element-margin) * 0.25) 0;
+				}
+
+				header {
+					h2 {
+						font-size: 1.25em;
+					}
+
+					> :last-child {
+						margin-bottom: 0;
+					}
+				}
+			}
+		}
+
+		> * {
+			/* border-top: solid 1px _palette(border); */
+			/* margin: _size(section-spacing) 0 0 0; */
+			/* padding: _size(section-spacing) 0 0 0; */
+			text-align: center;
+		}
+
+		> :first-child {
+			border-top: 0;
+			margin-top: 0;
+			padding-top: 0;
+		}
+
+		.blurb{
+			border-bottom: solid 1px _palette(border);
+		}
+
+		@include breakpoint(large) {
+			/* border-top: solid 1px _palette(border);  */
+			margin: _size(section-spacing) 0 0 0;
+			min-width: 200px;
+			/* padding: _size(section-spacing) 0 0 0; */
+			width: 100%;
+		}
+	}

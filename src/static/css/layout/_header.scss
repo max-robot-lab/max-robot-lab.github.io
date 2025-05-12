@@ -15,17 +15,49 @@
 		@include vendor('justify-content', 'space-between');
 		background-color: _palette(bg);
 		border-bottom: solid 1px _palette(border);
-		height: 3.5em;
+		height: 6.5em;
 		left: 0;
-		line-height: 3.5em;
+		line-height: 6.5em;
 		position: fixed;
 		top: 0;
 		width: 100%;
 		z-index: _misc(z-index-base);
 
+
+		.home-link {
+		  display: inline-flex;       /* lay out img + text side by side */
+		  align-items: center;        /* vertically center them */
+		  text-decoration: none;
+		  font-size: 25px;
+		  font-weight: 650;
+		  height: 2.5em;
+		  margin-top: 0.2em;
+		}
+
+		.site-description{
+		  font-size: 16px;
+		  font-weight: 450;
+		  height: 2.5em;
+		}
+
+		.logo {
+		  width: 36px;                /* adjust size as needed */
+		  height: 36px;
+		  margin-right: 0.5rem;       /* space between logo and text */
+		  vertical-align: middle;     /* fallback if needed */
+		}
+		
+
 		a {
 			color: inherit;
 			text-decoration: none;
+			font-family: "Segoe UI";
+		}
+
+		p {
+			font-family: "Segoe UI";
+			fone-size: 1em;
+			letter-spacing: 1px;
 		}
 
 		ul {
@@ -36,23 +68,22 @@
 			li {
 				display: inline-block;
 				padding-left: 0;
+				font-family: "Segoe UI";
+				fone-size: 3em;
 			}
 		}
 
 		h1 {
 			height: inherit;
-			line-height: inherit;
+			line-height: 3.2;
 			padding: 0 0 0 1.5em;
 			white-space: nowrap;
-
-			a {
-				font-size: 0.7em;
-			}
 		}
 
 		.links {
 			@include vendor('flex', '1');
-			border-left: solid 1px _palette(border);
+			//border-left: solid 1px _palette(border);
+			border-left:none;
 			height: inherit;
 			line-height: inherit;
 			margin-left: 1.5em;
@@ -75,10 +106,11 @@
 					a {
 						border-bottom: 0;
 						font-family: _font(family-heading);
-						font-size: 0.7em;
+						font-size: 0.85em;
 						font-weight: _font(weight-heading);
 						letter-spacing: _font(kerning-heading);
 						text-transform: uppercase;
+						font-family: "Segoe UI";
 					}
 				}
 			}

@@ -13,8 +13,12 @@ const Contact = lazy(() => import('./pages/Contact'));
 const Index = lazy(() => import('./pages/Index'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 const Projects = lazy(() => import('./pages/Projects'));
+const Publications = lazy(() => import('./pages/Publications'));
+const People = lazy(() => import('./pages/People'));
 const Otherprojects = lazy(() => import('./pages/Otherprojects'));
 const Resume = lazy(() => import('./pages/Resume'));
+const ResumeAnJiajun = lazy(() => import('./pages/resumes/Resume_AnJiajun'));
+const ResumeMaXin = lazy(() => import('./pages/resumes/Resume_MaXin'));
 const Stats = lazy(() => import('./pages/Stats'));
 const Test = lazy(() => import('./pages/Test'));
 const HapticWrist = lazy(() => import('./pages/project_details/HapticWrist'));
@@ -39,12 +43,16 @@ const App = () => (
         <Route path="/" element={<Index />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/people" element={<People />} />
         <Route path="/otherprojects" element={<Otherprojects />} />
         <Route path="/stats" element={<Stats />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
+        <Route path="/resume_anjiajun" element={<ResumeAnJiajun />} />
+        <Route path="/resume_maxin" element={<ResumeMaXin />} />
         <Route path="*" element={<NotFound />} />
         <Route path="/Test" element={<Test />} />
+        <Route path="/publications" element={<Publications />} />
         <Route path="/Projects/HapticWrist" element={<HapticWrist />} />
         <Route path="/Projects/RoboticTail" element={<RoboticTail />} />
         <Route path="/Projects/TeleRepIns" element={<TeleRepIns />} />

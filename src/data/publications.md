@@ -1,54 +1,5 @@
 
-# 基金项目/Funding
-
-1. **香港研究资助局综合研究基金（RGC-GRF）**  
-   Research Grants Council – General Research Fund (RGC-GRF), Hong Kong  
- 
-2. **国家自然科学基金青年基金**  
-   National Natural Science Foundation of China – Young Scientists Fund (NSFC-YSF)  
-
-3. **香港SHIAE基金**  
-   Hong Kong SHIAE Fund  
-
-4. **广东省自然科学基金面上基金**  
-   Guangdong Provincial Natural Science Foundation – General Program  
-
-5. **香港中文大学Direct Grant**  
-   The Chinese University of Hong Kong – Direct Grant  
-
-6. **粤港科技创新联合资助项目（香港方负责人）**  
-   Guangdong-Hong Kong Joint Funding Scheme for Technology and Innovation  
-   (Hong Kong Lead Investigator)  
-
-7. **香港ITF项目**  
-   Innovation and Technology Fund (ITF) Project, Hong Kong  
-
-## 获奖 / Awards
-
-1. **成果获得第九届中国国际大学生创新大赛 – 全国金奖**  
-   Gold Award at the 9th China International College Students’ Innovation and Entrepreneurship Competition
-
-2. **IEEE IRAC 2024 会议最佳论文奖**  
-   Best Paper Award at the IEEE IRAC 2024 Conference
-
-3. **IEEE ReMAR 2024 会议最佳论文提名奖**  
-   Best Paper Nomination at the IEEE ReMAR 2024 Conference
-
-4. **IEEE IRAC 2024 会议最佳论文提名奖**  
-   Best Paper Nomination at the IEEE IRAC 2024 Conference
-
-5. **2023 年中国国际大学生创新大赛 – 优秀创新创业导师**  
-   Excellent Innovation & Entrepreneurship Mentor of the 2023 China International College Students’ Innovation and Entrepreneurship Competition
-
-## 社会服务 / Service
-
-1. **青年编委：《浙江大学学报·理学版》**  
-   Youth Editorial Board Member, Journal of Zhejiang University: Science A
-
-2. **青年编委：Nature Discover Robotics**  
-   Youth Editorial Board Member, Nature Discover Robotics
-
-<!-- # Some history
+# 2025
 
 - My parents put a computer in my bedroom in 1993 when I was 3. It was an old Tandy that ran MS-DOS. My favorite games were Street Rod 2, Wolfenstein 3D, and Tom and Jerry. It had a mechanical keyboard and a turbo button. To this day, I still don't know what pressing the turbo button really did.
 
@@ -115,5 +66,5 @@ Ask me in person for other stories that I'm afraid to share with the internet.
 - I can't locate every country on a map.
 - I operate a [small angel fund](http://skepticalinvestments.biz/) with terrible returns.
 - I break about 30 traffic laws on a [cruiser](https://landyachtz.com/boards/cruiser/), [onewheel](https://onewheel.com/products/xr), [bicycle](https://www.citibikenyc.com/), or [electric skateboard](https://boostedusa.com/collections/electric-skateboards/products/boosted-mini-x) every single day.
-- I added this page because so many people complained that my site was just my resume. -->
+- I added this page because so many people complained that my site was just my resume.
 

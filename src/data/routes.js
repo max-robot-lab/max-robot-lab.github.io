@@ -1,29 +1,37 @@
 const routes = [
   {
     index: true,
-    label: 'Jiajun An',
+    label: 'MAX Lab',
     path: '/',
   },
   // {
-  //   label: 'About',
-  //   path: '/about',
+  //   label: 'Resume',
+  //   path: '/resume',
   // },
   {
-    label: 'Resume',
-    path: '/resume',
+    label: 'Publications',
+    path: '/publications',
   },
   {
-    label: 'Design Projects',
+    label: 'People',
+    path: '/people',
+  },
+  {
+    label: 'Projects',
     path: '/projects',
   },
   {
-    label: 'Other Projects',
-    path: '/otherprojects',
+    label: 'About',
+    path: '/about',
   },
   // {
-  //   label: 'Contact',
-  //   path: '/contact',
+  //   label: 'Other Projects',
+  //   path: '/otherprojects',
   // },
+  {
+    label: 'Contact',
+    path: '/contact',
+  },
 ];
 
 export default routes;

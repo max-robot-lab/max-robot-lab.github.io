@@ -1,30 +1,20 @@
 import React, { useState, useEffect } from 'react';
 // import { Link } from 'react-router-dom';
 import Markdown from 'markdown-to-jsx';
-import { Helmet } from 'react-helmet-async';
 
 import Main from '../layouts/Main';
 
 const About = () => {
   const [markdown, setMarkdown] = useState('');
 
-  /* useEffect(() => {
-    import('../data/about.md')
-      .then((res) => {
-        fetch(res.default)
-          .then((r) => r.text())
-          .then(setMarkdown);
-      });
-  }); */
-
   useEffect(() => {
-    import('../data/about.md')
+    import('../data/publications.md')
       .then((res) => {
         fetch(res.default)
           .then((r) => r.text())
           .then(setMarkdown);
       });
-  }, []);
+  });
 
   /* const count = markdown.split(/\s+/)
     .map((s) => s.replace(/\W/g, ''))
@@ -32,16 +22,14 @@ const About = () => {
 
   return (
     <Main
-      title="About"
-      description="Lab Info"
+      title="Publications"
+      description="publications"
     >
-      <Helmet>
-        <meta charSet="utf-8" />
-      </Helmet>
-      <article className="post markdown" id="about">
+      <article className="post markdown" id="publications">
         <header>
           <div className="title">
-            <h2>Lab Information</h2>
+            <h2>Publications</h2>
+            {/* <p>Paper</p>  <Link to="/publications"></Link>  */}
           </div>
         </header>
         <Markdown>

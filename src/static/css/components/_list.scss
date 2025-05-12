@@ -25,6 +25,15 @@
 			padding-left: 0.5em;
 		}
 
+		.post-item {
+		  display: flex;
+		  align-items: center;
+		}
+
+		.post-date {
+		  margin-left: auto;
+		}
+
 		&.alt {
 			list-style: none;
 			padding-left: 0;

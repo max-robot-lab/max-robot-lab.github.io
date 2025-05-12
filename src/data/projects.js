@@ -40,7 +40,7 @@ const data = [
       + 'and gps transponder. Resulting photos were published in a coffee table book. '
       + 'You can email me for a copy.',
   },
-  {
+  /* {
     title: 'Humanoid Leg Design Based on Parallel Mechanism',
     subtitle: 'A convolutional neural network to classify cats! (and dogs)',
     link: '/Projects/HumanoidLeg',
@@ -65,7 +65,7 @@ const data = [
       'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
       + 'Over 60,000 cats were classified before server bills made the project too expensive '
       + 'to continue hosting.',
-  },
+  }, */
 ];
 
 export default data;
