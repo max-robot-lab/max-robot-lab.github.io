@@ -17,7 +17,7 @@ const work = [
     position: 'Ph.D.',
     startDate: 'Dec 2021 - Apr 2025',
     summary: `Mechanical and Automation Engineering department, The Chinese University of Hong Kong, 
-    Hong Kong China.`,
+    Hong Kong, China.`,
     highlights: [
 
     ],

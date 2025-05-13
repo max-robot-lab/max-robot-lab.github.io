@@ -1,11 +1,11 @@
 {
   "name": "personal-site",
   "version": "4.0.0",
-  "homepage": "https://jiajunan.github.io/",
+  "homepage": "https://max-robot-lab.com/",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jiajunan/jiajunan.github.io.git"
+    "url": "https://max-robot-lab.github.io/max-robot-lab"
   },
   "engines": {
     "node": ">=14.x"
@@ -25,7 +25,6 @@
     "@fortawesome/free-regular-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "0.2.0",
     "dayjs": "^1.11.7",
-    "gh-pages": "^5.0.0",
     "markdown-to-jsx": "^7.2.0",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
@@ -48,6 +47,7 @@
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-jsx-a11y": "6.7.1",
     "eslint-plugin-react": "^7.32.2",
+    "gh-pages": "^6.3.0",
     "react-snap": "^1.13.1",
     "rimraf": "^5.0.1",
     "sass": "^1.62.1",

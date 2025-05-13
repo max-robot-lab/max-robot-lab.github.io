@@ -9,6 +9,7 @@ const { PUBLIC_URL } = process.env;
 // NOTE that some of these chunks are very small. We should optimize
 // which pages are lazy loaded in the future.
 const About = lazy(() => import('./pages/About'));
+const Awards = lazy(() => import('./pages/Awards'));
 const Contact = lazy(() => import('./pages/Contact'));
 const Index = lazy(() => import('./pages/Index'));
 const NotFound = lazy(() => import('./pages/NotFound'));
@@ -18,7 +19,12 @@ const People = lazy(() => import('./pages/People'));
 const Otherprojects = lazy(() => import('./pages/Otherprojects'));
 const Resume = lazy(() => import('./pages/Resume'));
 const ResumeAnJiajun = lazy(() => import('./pages/resumes/Resume_AnJiajun'));
+const ResumeWangDaifeng = lazy(() => import('./pages/resumes/Resume_WangDaifeng'));
 const ResumeMaXin = lazy(() => import('./pages/resumes/Resume_MaXin'));
+const ResumeZhuPuchen = lazy(() => import('./pages/resumes/Resume_ZhuPuchen'));
+const ResumePengMing = lazy(() => import('./pages/resumes/Resume_PengMing'));
+const ResumeLaiWenkai = lazy(() => import('./pages/resumes/Resume_LaiWenkai'));
+const ResumeHuangZhanpeng = lazy(() => import('./pages/resumes/Resume_HuangZhanpeng'));
 const Stats = lazy(() => import('./pages/Stats'));
 const Test = lazy(() => import('./pages/Test'));
 const HapticWrist = lazy(() => import('./pages/project_details/HapticWrist'));
@@ -42,6 +48,7 @@ const App = () => (
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="/about" element={<About />} />
+        <Route path="/awards" element={<Awards />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/people" element={<People />} />
         <Route path="/otherprojects" element={<Otherprojects />} />
@@ -49,7 +56,12 @@ const App = () => (
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/resume_anjiajun" element={<ResumeAnJiajun />} />
+        <Route path="/resume_wangdaifeng" element={<ResumeWangDaifeng />} />
         <Route path="/resume_maxin" element={<ResumeMaXin />} />
+        <Route path="/resume_zhupuchen" element={<ResumeZhuPuchen />} />
+        <Route path="/resume_pengming" element={<ResumePengMing />} />
+        <Route path="/resume_laiwenkai" element={<ResumeLaiWenkai />} />
+        <Route path="/resume_huangzhanpeng" element={<ResumeHuangZhanpeng />} />
         <Route path="*" element={<NotFound />} />
         <Route path="/Test" element={<Test />} />
         <Route path="/publications" element={<Publications />} />

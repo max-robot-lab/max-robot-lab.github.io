@@ -13,6 +13,14 @@ const Index = () => (
     description={"Max Lab's website. "}
   >
     <article className="post" id="index">
+      <div className="title">
+        <p className="intromaxin">
+          马鑫，分别于 2011 年与 2017 年在大连理工大学机械工程学院获得学士与博士学位， 师从大连理工大学校长贾振元院士、大连理工大学机械工程学院院长刘巍教授（杰青）。 2017 年 10 月至 2021 年 3 月在香港中文大学、新加坡南洋理工大学以及美国普渡大学进 行三年博士后研究工作， 美国普渡大学博士后研究期间师从 Richard M. Voyles 教授(IEEE Fellow)；2021 年 4 月至2025年4月在香港中文大学机械与自动化工程系担任研究助理教授。2025年至今南方科技大学助理教授。
+        </p>
+        <p className="intromaxin">
+          Xin Ma received his Bachelor’s and Ph.D. degrees from the School of Mechanical Engineering at Dalian University of Technology in 2011 and 2017, respectively, under the supervision of Academician Zhenyuan Jia (President of Dalian University of Technology) and Professor Wei Liu (Dean of the School of Mechanical Engineering and recipient of the National Science Fund for Distinguished Young Scholars). From October 2017 to March 2021, he conducted postdoctoral research at The Chinese University of Hong Kong, Nanyang Technological University, and Purdue University, working under Professor Richard M. Voyles (IEEE Fellow) during his time at Purdue. From April 2021 to April 2025, he served as a Research Assistant Professor in the Department of Mechanical and Automation Engineering at The Chinese University of Hong Kong. Since 2025, he has been an Assistant Professor at Southern University of Science and Technology.
+        </p>
+      </div>
       <header>
         <div className="title">
           <h2><Link to="/">News</Link></h2>
@@ -22,6 +30,24 @@ const Index = () => (
         </div>
       </header>
       <ul>
+        <li>
+          <div className="post-item">
+            <a href="/contact"><strong>欢迎加入我们！| Welcome to join us!</strong></a>
+            <span className="post-date">2025-05-13</span>
+          </div>
+        </li>
+        <li>
+          <div className="post-item">
+            Paper Accepted by IEEE T-RO: “On the Fully Decoupled Rigid-Body Dynamics Identification of Serial Industrial Robots”
+            <span className="post-date">2025-05-11</span>
+          </div>
+        </li>
+        <li>
+          <div className="post-item">
+            Paper Accepted by IEEE T-MECH: “A Dexterity and Exploration Enhanced Quadruped Robot with a Multi-Functional Retractable Variable-Stiffness Manipulator”
+            <span className="post-date">2025-05-10</span>
+          </div>
+        </li>
         <li>
           <div className="post-item">
             Max Lab Officially Launches!
@@ -41,44 +67,6 @@ const Index = () => (
           key={project.title}
         />
       ))}
-      {/* {data.map((project) => (
-        <Cell
-          data={project}
-          key={project.title}
-        />
-      ))} */}
-    </article>
-    <article className="post" id="join">
-      <header>
-        <div className="title">
-          <h2><Link to="/">Join Us!</Link></h2>
-          {/* <p>
-             Design innovations push the upper bound of robot performance.
-           </p> */}
-        </div>
-      </header>
-      <ul>
-        <li>
-          <div className="post-item">
-            <h3 className="post-title">We are Recruiting New Lab Members!</h3>
-            <span className="post-date">2025-05-08</span>
-          </div>
-
-          <ul className="recruit-list">
-            <li>博士后研究员 | Postdoctoral Researcher: 机器人机电结构创新与轻量化复合材料设计</li>
-            <li>机械工程师 | Mechanical Engineer: 机器人结构设计与机械系统集成</li>
-            <li>高级算法工程师 | Senior Algorithm Engineer: SLAM、多传感器融合及实时避障与地图构建</li>
-            <li>控制仿真工程师 | Control &amp; Simulation Engineer: 模型预测控制 (MPC) 与强化学习驱动的运动控制</li>
-            <li>研究助理/硕士生 | Research Assistant / Master’s Student: 系统集成、硬件测试与数据分析</li>
-            <li>实习学生 | Internship Student: 实验室日常研究支持、原型搭建与测试</li>
-          </ul>
-
-          <div className="post-footer">
-            <p> Send your CV &amp; cover letter to <a href="mailto:max6@sustech.edu.cn">max6@sustech.edu.cn</a></p>
-            <p>MAX Lab (Multi-modal Autonomous robot eXploration Lab) — 隶属于机器人研究所</p>
-          </div>
-        </li>
-      </ul>
       {/* {data.map((project) => (
         <Cell
           data={project}

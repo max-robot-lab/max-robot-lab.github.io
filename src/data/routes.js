@@ -9,6 +9,10 @@ const routes = [
   //   path: '/resume',
   // },
   {
+    label: 'Home',
+    path: '/',
+  },
+  {
     label: 'Publications',
     path: '/publications',
   },
@@ -21,9 +25,13 @@ const routes = [
     path: '/projects',
   },
   {
-    label: 'About',
-    path: '/about',
+    label: 'Awards',
+    path: '/awards',
   },
+  // {
+  //   label: 'About',
+  //   path: '/about',
+  // },
   // {
   //   label: 'Other Projects',
   //   path: '/otherprojects',

@@ -20,7 +20,7 @@ const People = () => (
     </Helmet>
     <section id="people">
       <section className="intro">
-        <Link to="/" className="logo">
+        <Link to="/resume_maxin" className="logo">
           <img src={`${PUBLIC_URL}/images/maxin.png`} alt="" />
         </Link>
         <header>
@@ -42,7 +42,7 @@ const People = () => (
         </ul>
       </section>
       <section className="intro">
-        <Link to="/" className="logo">
+        <Link to="/resume_anjiajun" className="logo">
           <img src={`${PUBLIC_URL}/images/anjiajun.png`} alt="" />
         </Link>
         <header>
@@ -64,7 +64,29 @@ const People = () => (
         </ul>
       </section>
       <section className="intro">
-        <Link to="/" className="logo">
+        <Link to="/resume_wangdaifeng" className="logo">
+          <img src={`${PUBLIC_URL}/images/WangDaifeng2.png`} alt="" />
+        </Link>
+        <header>
+          <h2>Daifeng Wang (王戴丰)</h2>
+          <h3>PostDoctoral Researcher</h3>
+        </header>
+        <ul className="actions">
+          <li>
+            {!window.location.pathname.includes('/resume_wangdaifeng') ? (
+              <Link to="/resume_wangdaifeng" className="button">
+                Learn More
+              </Link>
+            ) : (
+              <Link to="/resume_wangdaifeng" className="button">
+                About Me
+              </Link>
+            )}
+          </li>
+        </ul>
+      </section>
+      <section className="intro">
+        <Link to="/resume_zhupuchen" className="logo">
           <img src={`${PUBLIC_URL}/images/zhupuchen.png`} alt="" />
         </Link>
         <header>
@@ -73,12 +95,78 @@ const People = () => (
         </header>
         <ul className="actions">
           <li>
-            {!window.location.pathname.includes('/resume_anjiajun') ? (
-              <Link to="/resume_anjiajun" className="button">
+            {!window.location.pathname.includes('/resume_zhupuchen') ? (
+              <Link to="/resume_zhupuchen" className="button">
                 Learn More
               </Link>
             ) : (
-              <Link to="/resume_anjiajun" className="button">
+              <Link to="/resume_zhupuchen" className="button">
+                About Me
+              </Link>
+            )}
+          </li>
+        </ul>
+      </section>
+      <section className="intro">
+        <Link to="/resume_pengming" className="logo">
+          <img src={`${PUBLIC_URL}/images/PengMing.jpg`} alt="" />
+        </Link>
+        <header>
+          <h2>Ming Peng (彭名)</h2>
+          <h3>Research Assistant</h3>
+        </header>
+        <ul className="actions">
+          <li>
+            {!window.location.pathname.includes('/resume_pengming') ? (
+              <Link to="/resume_pengming" className="button">
+                Learn More
+              </Link>
+            ) : (
+              <Link to="/resume_pengming" className="button">
+                About Me
+              </Link>
+            )}
+          </li>
+        </ul>
+      </section>
+      <section className="intro">
+        <Link to="/resume_laiwenkai" className="logo">
+          <img src={`${PUBLIC_URL}/images/LaiWenkai.jpg`} alt="" />
+        </Link>
+        <header>
+          <h2>Kaiwen Lai (赖文凯)</h2>
+          <h3>Research Assistant</h3>
+        </header>
+        <ul className="actions">
+          <li>
+            {!window.location.pathname.includes('/resume_laiwenkai') ? (
+              <Link to="/resume_laiwenkai" className="button">
+                Learn More
+              </Link>
+            ) : (
+              <Link to="/resume_laiwenkai" className="button">
+                About Me
+              </Link>
+            )}
+          </li>
+        </ul>
+      </section>
+      <section className="intro">
+        <Link to="/resume_huangzhanpeng" className="logo">
+          <img src={`${PUBLIC_URL}/images/HuangZhanpeng.jpg`} alt="" />
+        </Link>
+        <header>
+          <h2>Zhanpeng Huang (黄展鹏)</h2>
+          <h3>Research Assistant</h3>
+        </header>
+        <ul className="actions">
+          <li>
+            {!window.location.pathname.includes('/resume_huangzhanpeng') ? (
+              <Link to="/resume_huangzhanpeng" className="button">
+                Learn More
+              </Link>
+            ) : (
+              <Link to="/resume_huangzhanpeng" className="button">
                 About Me
               </Link>
             )}

@@ -15,7 +15,7 @@ const degrees = [
   },
   {
     school: 'Shanghai Jiao Tong University (SJTU)',
-    degree: 'B.S. Mechanical Engineering',
+    degree: 'B.S. Mechanical Engineering (Qian Xuesen Honors Program)',
     link: 'https://en.wikipedia.org/wiki/Shanghai_Jiao_Tong_University',
     year: 'Sep 2013 - Jul 2017',
     GPA: '3.79/4.0',

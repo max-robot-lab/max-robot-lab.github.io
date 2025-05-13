@@ -5,13 +5,14 @@ const Cell = ({ data }) => (
   <div className="cell-container">
     <article className="mini-post">
       <header>
-        <h3><a href={data.link}>{data.title}</a></h3>
-        <h4>Project Description: {data.status}</h4>
-        <time className="published">Focused duration: {data.date} -{data.date2} </time>
+        <h3>{data.title}</h3>
+        <h4>研究内容/Research Content:</h4>
+        <p className="direction_description">{data.status}</p>
+        <p className="direction_description">{data.statusen}</p>
       </header>
-      <a href={data.link} className="image">
+      <div className="image">
         <img src={`${process.env.PUBLIC_URL}${data.image}`} alt={data.title} />
-      </a>
+      </div>
       {/* <div className="description">
         <p>{data.desc}</p>
       </div> */}
@@ -25,6 +26,7 @@ Cell.propTypes = {
     link: PropTypes.string,
     image: PropTypes.string.isRequired,
     status: PropTypes.string.isRequired,
+    statusen: PropTypes.string.isRequired,
     date: PropTypes.string.isRequired,
     date2: PropTypes.string.isRequired,
     desc: PropTypes.string.isRequired,

@@ -12,7 +12,9 @@
 		min-width: 22em;
 		/* width: 22em; */
 		display: flex;
-		gap: 2rem;
+		gap: 0rem;
+		flex-wrap: wrap;
+
 
 		.intro {
 			flex: 0 0 25%;   
@@ -32,7 +34,7 @@
 
 			header {
 				h2 {
-					font-size: 1.5em;
+					font-size: 1.2em;
 					font-weight: _font(weight-heading-extrabold);
 					margin-bottom: 6px;
 				}
