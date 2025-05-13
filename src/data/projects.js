@@ -47,7 +47,7 @@ const data = [
     title: '视觉测量/Vision-based Measurement',
     subtitle: 'A kickstarter funded potato powered weather balloon.',
     link: '/Projects/Pics/TeleRepIns',
-    image: '/images/projects/Pics/vision2.png',
+    image: '/images/projects/Pics/vision3.png',
     status: '在跨介质与大景深环境中，综合考虑视觉遮挡与深度畸变，实现高精度视觉测量。',
     statusen: 'High-precision vision measurement in cross-media, large depth-of-field environments, accounting for visual occlusion and depth distortion.',
     date: 'Jan 2023',
