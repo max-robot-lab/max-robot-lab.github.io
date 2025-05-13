@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpersonal_site=self.webpackChunkpersonal_site||[]).push([[231],{5231:(e,s,a)=>{e.exports=a.p+"static/media/awards.0d60ae5004123dc74073.md"}}]);

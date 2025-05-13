@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpersonal_site=self.webpackChunkpersonal_site||[]).push([[588],{1588:(e,s,t)=>{e.exports=t.p+"static/media/contact.82578818d40a3fdb7576.md"}}]);
