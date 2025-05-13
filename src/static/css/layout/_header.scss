@@ -177,8 +177,12 @@
 		}
 
 		@include breakpoint(small) {
-			height: 2.75em;
-			line-height: 2.75em;
+			height: 4.75em;
+			line-height: 4.75em;
+
+			.site-description{
+				display: none; 
+			}
 
 			h1 {
 				padding: 0 0 0 1em;
