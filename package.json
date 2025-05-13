@@ -1,11 +1,11 @@
 {
   "name": "personal-site",
   "version": "4.0.0",
-  "homepage": "https://max-lab.net",
+  "homepage": "https://max-robot-lab.github.io",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://max-robot-lab.github.io/max-robot-lab.git"
+    "url": "https://github.com/max-robot-lab/max-robot-lab.github.io.git"
   },
   "engines": {
     "node": ">=14.x"
