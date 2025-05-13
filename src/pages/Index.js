@@ -32,7 +32,7 @@ const Index = () => (
       <ul>
         <li>
           <div className="post-item">
-            <a href="/contact"><strong>欢迎加入我们！| Welcome to join us!</strong></a>
+            <a href={`${process.env.PUBLIC_URL}/contact`}><strong>欢迎加入我们！| Welcome to join us!</strong></a>
             <span className="post-date">2025-05-13</span>
           </div>
         </li>
