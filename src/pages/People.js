@@ -134,7 +134,7 @@ const People = () => (
           <img src={`${PUBLIC_URL}/images/LaiWenkai.jpg`} alt="" />
         </Link>
         <header>
-          <h2>Kaiwen Lai (赖文凯)</h2>
+          <h2>Wenkai Lai (赖文凯)</h2>
           <h3>Research Assistant</h3>
         </header>
         <ul className="actions">

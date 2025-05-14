@@ -33,7 +33,7 @@ const Resume = () => (
     <article className="post" id="resume">
       <header>
         <div className="title">
-          <h2>Kaiwen Lai (赖文凯)</h2>
+          <h2>Wenkai Lai (赖文凯)</h2>
           <h3>Research Assistant</h3>
         </div>
       </header>
