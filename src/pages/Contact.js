@@ -70,7 +70,7 @@ const Contact = () => {
       <article className="post markdown" id="contact">
         <header>
           <div className="title">
-            <h2>Contact Us</h2>
+            <h2>联系我们/Contact Us</h2>
           </div>
         </header>
         <Markdown>

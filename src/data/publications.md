@@ -46,6 +46,7 @@
 5. **Xin Ma**; Chengzhi Song; Long Qian; Weixiao Liu; Philip Waiyan Chiu; Zheng Li; Augmented Reality-Assisted Autonomous View Adjustment of a 6-DOF Robotic Stereo Flexible Endoscope, _IEEE Transactions on Medical Robotics and Bionics (T-MRB)_, 2022, 4(2): 356–367.  
 
 ---
+
 ## 2021 and Previous
 1. Praveen Abbaraju; **Xin Ma***; Guangying Jiang; Richard M. Voyles; Aerodynamic Modeling for Multirotor UAVs with Nonparallel Actuators, in _Proceedings of the 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)_, 2021.
 2. Mythra V. Balakuntala; Upinder Kaur; **Xin Ma***; Juan Wachs; Richard M. Voyles; Learning Multimodal Contact-Rich Skills from Demonstrations Without Reward Engineering, in _Proceedings of the 2021 IEEE International Conference on Robotics and Automation (ICRA)_, 2021.
