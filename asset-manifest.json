@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7adb13da.css",
-    "main.js": "/static/js/main.2cb7779e.js",
+    "main.js": "/static/js/main.e2831209.js",
     "static/js/964.2130bd7d.chunk.js": "/static/js/964.2130bd7d.chunk.js",
     "static/js/703.cec33790.chunk.js": "/static/js/703.cec33790.chunk.js",
     "static/js/562.af30feae.chunk.js": "/static/js/562.af30feae.chunk.js",
@@ -40,16 +40,16 @@
     "static/js/231.c7441f4d.chunk.js": "/static/js/231.c7441f4d.chunk.js",
     "static/js/588.2270be02.chunk.js": "/static/js/588.2270be02.chunk.js",
     "static/js/75.285ef8bb.chunk.js": "/static/js/75.285ef8bb.chunk.js",
-    "static/js/367.4a49a83c.chunk.js": "/static/js/367.4a49a83c.chunk.js",
+    "static/js/367.5788f1be.chunk.js": "/static/js/367.5788f1be.chunk.js",
     "static/js/773.bfc672b5.chunk.js": "/static/js/773.bfc672b5.chunk.js",
+    "static/media/publications.md": "/static/media/publications.323893f61a2187e4476c.md",
     "static/media/about.md": "/static/media/about.23e5c92a1676b9afc68e.md",
-    "static/media/publications.md": "/static/media/publications.a7f73ff7eecbc1b9871a.md",
     "static/media/awards.md": "/static/media/awards.0d60ae5004123dc74073.md",
     "static/media/contact.md": "/static/media/contact.82578818d40a3fdb7576.md",
     "index.html": "/index.html",
     "static/media/projects.md": "/static/media/projects.80ac8a8e277395ed0dff.md",
     "main.7adb13da.css.map": "/static/css/main.7adb13da.css.map",
-    "main.2cb7779e.js.map": "/static/js/main.2cb7779e.js.map",
+    "main.e2831209.js.map": "/static/js/main.e2831209.js.map",
     "964.2130bd7d.chunk.js.map": "/static/js/964.2130bd7d.chunk.js.map",
     "703.cec33790.chunk.js.map": "/static/js/703.cec33790.chunk.js.map",
     "562.af30feae.chunk.js.map": "/static/js/562.af30feae.chunk.js.map",
@@ -88,6 +88,6 @@
   },
   "entrypoints": [
     "static/css/main.7adb13da.css",
-    "static/js/main.2cb7779e.js"
+    "static/js/main.e2831209.js"
   ]
 }
