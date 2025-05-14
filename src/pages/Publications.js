@@ -28,7 +28,7 @@ const About = () => {
       <article className="post markdown" id="publications">
         <header>
           <div className="title">
-            <h2>Publications</h2>
+            <h2>论文列表/Publications</h2>
             {/* <p>Paper</p>  <Link to="/publications"></Link>  */}
           </div>
         </header>
