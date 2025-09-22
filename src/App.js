@@ -25,6 +25,10 @@ const ResumeZhuPuchen = lazy(() => import('./pages/resumes/Resume_ZhuPuchen'));
 const ResumePengMing = lazy(() => import('./pages/resumes/Resume_PengMing'));
 const ResumeLaiWenkai = lazy(() => import('./pages/resumes/Resume_LaiWenkai'));
 const ResumeHuangZhanpeng = lazy(() => import('./pages/resumes/Resume_HuangZhanpeng'));
+const ResumeDuShuyang = lazy(() => import('./pages/resumes/Resume_DuShuyang'));
+const ResumePeiJingjing = lazy(() => import('./pages/resumes/Resume_PeiJingjing'));
+const ResumeFengJiamin = lazy(() => import('./pages/resumes/Resume_FengJiamin'));
+const ResumeWangXuchen = lazy(() => import('./pages/resumes/Resume_WangXuchen'));
 const Stats = lazy(() => import('./pages/Stats'));
 const Test = lazy(() => import('./pages/Test'));
 const HapticWrist = lazy(() => import('./pages/project_details/HapticWrist'));
@@ -62,6 +66,10 @@ const App = () => (
         <Route path="/resume_pengming" element={<ResumePengMing />} />
         <Route path="/resume_laiwenkai" element={<ResumeLaiWenkai />} />
         <Route path="/resume_huangzhanpeng" element={<ResumeHuangZhanpeng />} />
+        <Route path="/resume_dushuyang" element={<ResumeDuShuyang />} />
+        <Route path="/resume_peijingjing" element={<ResumePeiJingjing />} />
+        <Route path="/resume_fengjiamin" element={<ResumeFengJiamin />} />
+        <Route path="/resume_wangxuchen" element={<ResumeWangXuchen />} />
         <Route path="*" element={<NotFound />} />
         <Route path="/Test" element={<Test />} />
         <Route path="/publications" element={<Publications />} />

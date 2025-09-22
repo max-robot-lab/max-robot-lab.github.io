@@ -86,6 +86,28 @@ const People = () => (
         </ul>
       </section>
       <section className="intro">
+        <Link to="/resume_wangxuchen" className="logo">
+          <img src={`${PUBLIC_URL}/images/Xuchen Wang.png`} alt="" />
+        </Link>
+        <header>
+          <h2>Xuchen Wang (王顼琛)</h2>
+          <h3>PostDoctoral Researcher</h3>
+        </header>
+        <ul className="actions">
+          <li>
+            {!window.location.pathname.includes('/resume_wangxuchen') ? (
+              <Link to="/resume_wangxuchen" className="button">
+                Learn More
+              </Link>
+            ) : (
+              <Link to="/resume_wangxuchen" className="button">
+                About Me
+              </Link>
+            )}
+          </li>
+        </ul>
+      </section>
+      <section className="intro">
         <Link to="/resume_zhupuchen" className="logo">
           <img src={`${PUBLIC_URL}/images/zhupuchen.png`} alt="" />
         </Link>
@@ -167,6 +189,72 @@ const People = () => (
               </Link>
             ) : (
               <Link to="/resume_huangzhanpeng" className="button">
+                About Me
+              </Link>
+            )}
+          </li>
+        </ul>
+      </section>
+      <section className="intro">
+        <Link to="/resume_dushuyang" className="logo">
+          <img src={`${PUBLIC_URL}/images/Shuyang Du.jpg`} alt="" />
+        </Link>
+        <header>
+          <h2>Shuyang Du (都书洋)</h2>
+          <h3>Undergraduate Student</h3>
+        </header>
+        <ul className="actions">
+          <li>
+            {!window.location.pathname.includes('/resume_dushuyang') ? (
+              <Link to="/resume_dushuyang" className="button">
+                Learn More
+              </Link>
+            ) : (
+              <Link to="/resume_dushuyang" className="button">
+                About Me
+              </Link>
+            )}
+          </li>
+        </ul>
+      </section>
+      <section className="intro">
+        <Link to="/resume_dushuyang" className="logo">
+          <img src={`${PUBLIC_URL}/images/Jingjing Pei.jpg`} alt="" />
+        </Link>
+        <header>
+          <h2>Jingjing Pei (裴静静)</h2>
+          <h3>Research Assistant</h3>
+        </header>
+        <ul className="actions">
+          <li>
+            {!window.location.pathname.includes('/resume_peijingjing') ? (
+              <Link to="/resume_peijingjing" className="button">
+                Learn More
+              </Link>
+            ) : (
+              <Link to="/resume_peijingjing" className="button">
+                About Me
+              </Link>
+            )}
+          </li>
+        </ul>
+      </section>
+      <section className="intro">
+        <Link to="/resume_dushuyang" className="logo">
+          <img src={`${PUBLIC_URL}/images/Jiamin Feng.jpg`} alt="" />
+        </Link>
+        <header>
+          <h2>Jiamin Feng (冯佳敏)</h2>
+          <h3>Undergraduate Student</h3>
+        </header>
+        <ul className="actions">
+          <li>
+            {!window.location.pathname.includes('/resume_fengjiamin') ? (
+              <Link to="/resume_fengjiamin" className="button">
+                Learn More
+              </Link>
+            ) : (
+              <Link to="/resume_fengjiamin" className="button">
                 About Me
               </Link>
             )}

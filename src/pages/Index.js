@@ -32,9 +32,15 @@ const Index = () => (
       <ul>
         <li>
           <div className="post-item">
+            Warmly welcome four new members to join our laboratory: XuchenWang , Postdoctoral Research Fellow, JingjingPei, Research Assistant, as well as  ShuyangDu and  Jiamin Feng!
+            <span className="post-date">2025-09-22</span>
+          </div> 
+        </li>
+        <li>
+          <div className="post-item">
             <Link to="/contact"><strong>欢迎加入我们！| Welcome to join us!</strong></Link>
             <span className="post-date">2025-05-13</span>
-          </div>
+          </div> 
         </li>
         <li>
           <div className="post-item">
