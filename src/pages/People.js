@@ -130,28 +130,6 @@ const People = () => (
         </ul>
       </section>
       <section className="intro">
-        <Link to="/resume_pengming" className="logo">
-          <img src={`${PUBLIC_URL}/images/PengMing.jpg`} alt="" />
-        </Link>
-        <header>
-          <h2>Ming Peng (彭名)</h2>
-          <h3>Research Assistant</h3>
-        </header>
-        <ul className="actions">
-          <li>
-            {!window.location.pathname.includes('/resume_pengming') ? (
-              <Link to="/resume_pengming" className="button">
-                Learn More
-              </Link>
-            ) : (
-              <Link to="/resume_pengming" className="button">
-                About Me
-              </Link>
-            )}
-          </li>
-        </ul>
-      </section>
-      <section className="intro">
         <Link to="/resume_laiwenkai" className="logo">
           <img src={`${PUBLIC_URL}/images/LaiWenkai.jpg`} alt="" />
         </Link>
@@ -167,28 +145,6 @@ const People = () => (
               </Link>
             ) : (
               <Link to="/resume_laiwenkai" className="button">
-                About Me
-              </Link>
-            )}
-          </li>
-        </ul>
-      </section>
-      <section className="intro">
-        <Link to="/resume_huangzhanpeng" className="logo">
-          <img src={`${PUBLIC_URL}/images/HuangZhanpeng.jpg`} alt="" />
-        </Link>
-        <header>
-          <h2>Zhanpeng Huang (黄展鹏)</h2>
-          <h3>Research Assistant</h3>
-        </header>
-        <ul className="actions">
-          <li>
-            {!window.location.pathname.includes('/resume_huangzhanpeng') ? (
-              <Link to="/resume_huangzhanpeng" className="button">
-                Learn More
-              </Link>
-            ) : (
-              <Link to="/resume_huangzhanpeng" className="button">
                 About Me
               </Link>
             )}

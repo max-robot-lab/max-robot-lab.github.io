@@ -1,8 +1,8 @@
 ﻿
 ## 2025
-1. Yiying Liang; Xuchen Wang; Jing Shu; Huayu Zhang; Puchen Zhu; Xianfeng Xia; **Xin Ma***; Design of a Soft Automatic Anchoring System for Enhanced Mobility and Stability in Colonoscopy Robots, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025, Accepted. 
+1. Yiying Liang; Xuchen Wang*; Jing Shu; Huayu Zhang; Puchen Zhu; Xianfeng Xia; **Xin Ma**; Design of a Soft Automatic Anchoring System for Enhanced Mobility and Stability in Colonoscopy Robots, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025, Accepted. 
 2. Puchen Zhu; Wenkai Lai; **Xin Ma***; Xuchen Wang; Jianshu Zhou;  Shing Shin Cheng; K. W. Samuel Au; A Spatial Position-Based Visual Servoing Obstacle-Avoidable Shape Control Framework for an 11-DOF Hybrid Continuum Robot, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS),2025,Accepted.
-3. **Xin Ma***; Zhengtai Xie; Mei Liu; Discretized Data-Driven Neural Dynamics for Model-Adaptive Kinematic Control of Redundant Manipulators, IEEE Transactions on Automation Science and  Engineering (T-ASE), 2025, Accepted.
+3. **Xin Ma**; Zhengtai Xie; Mei Liu*; Discretized Data-Driven Neural Dynamics for Model-Adaptive Kinematic Control of Redundant Manipulators, IEEE Transactions on Automation Science and  Engineering (T-ASE), 2025, Accepted.
 4. Jinfei Hu; Zelong Chen; Yinjie Lin; Zheng Chen; Bin Yao; **Xin Ma***; On the Fully Decoupled Rigid-body Dynamics Identification of Serial Industrial Robots, _IEEE Transactions on Robotics (T-RO)_, 2025, Accepted.  
 5. Xuchen Wang; Yiying Liang; Shengzhi Wang; Jing Shu; Puchen Zhu; Wenkai Lai; Jiajun An; Jianshu Zhou; **Xin Ma***; A Dexterity and Exploration Enhanced Quadruped Robot with a Multi-Functional Retractable Variable-Stiffness Manipulator, _IEEE/ASME Transactions on Mechatronics (T-MECH)_, 2025, Accepted. 
 6. Jianshu Zhou; Junda Huang; Boyuan Liang; Xiang Zhang; **Xin Ma**; Masayoshi Tomizuka\*; Prismatic-Bending Transformable (PBT) Joint for a Modular, Foldable Manipulator with Enhanced Reachability and Dexterity, _IEEE/ASME Transactions on Mechatronics (T-MECH)_, 2025, Accepted.  
