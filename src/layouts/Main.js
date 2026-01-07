@@ -24,7 +24,7 @@ const Main = (props) => (
         </div>
       </div>
       <div id="footer">
-        <p className="copyright">&copy; MAX Lab, Last updated on May 2025</p>
+        <p className="copyright">&copy; MAX Lab, Last updated on Jan 2026</p>
       </div>
     </div>
   </HelmetProvider>
