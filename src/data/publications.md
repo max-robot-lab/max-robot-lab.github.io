@@ -1,6 +1,6 @@
 ﻿
 ## 2025
-1. Jianshu Zhou; Jing Shu; Tianle Pan; Puchen Zhu; Jiajun An; Huayu Zhang; Junda Huang; Upinder Kaur; **Xin Ma***; Masayoshi Tomizuka; Everything-Grasping Gripper: A Universal Gripper with Synergistic Suction–Grasping Capabilities for Cross-Scale and Cross-State Manipulation, Soft Robotics, 2025, Accepted.
+1. Jianshu Zhou; Jing Shu; Tianle Pan; Puchen Zhu; Jiajun An; Huayu Zhang; Junda Huang; Upinder Kaur; **Xin Ma***; Masayoshi Tomizuka; Everything-Grasping Gripper: A Universal Gripper with Synergistic Suction–Grasping Capabilities for Cross-Scale and Cross-State Manipulation, Soft Robotics, 2025, Accepted. 
 2. Yiying Liang; Xuchen Wang*; Jing Shu; Huayu Zhang; Puchen Zhu; Xianfeng Xia; **Xin Ma**; Design of a Soft Automatic Anchoring System for Enhanced Mobility and Stability in Colonoscopy Robots, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025, Accepted. 
 3. Puchen Zhu; Wenkai Lai; **Xin Ma***; Xuchen Wang; Jianshu Zhou;  Shing Shin Cheng; K. W. Samuel Au; A Spatial Position-Based Visual Servoing Obstacle-Avoidable Shape Control Framework for an 11-DOF Hybrid Continuum Robot, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS),2025,Accepted.
 4. **Xin Ma**; Zhengtai Xie; Mei Liu*; Discretized Data-Driven Neural Dynamics for Model-Adaptive Kinematic Control of Redundant Manipulators, IEEE Transactions on Automation Science and  Engineering (T-ASE), 2025, Accepted.
