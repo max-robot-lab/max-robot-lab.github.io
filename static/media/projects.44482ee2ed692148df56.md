@@ -1,8 +1,8 @@
 1. **南方科技大学机器人研究院-济宁联合研究中心（1500万）**  
    South University of Science and Technology of China (SUSTech) Robotics Research Institute - Jining Joint Research Center (Total Funding: RMB 15,000,000)
 
-2. **国家优秀青年基金（海外）（200万）**  
-   National Overseas Outstanding Young Talents Program (Total Funding: RMB 2,000,000)
+2. **国家高层次青年人才项目（海外）（200万）**  
+   National High-Level Young Talents Program (Overseas) (Total Funding: RMB 2,000,000)
 
 3. **深圳市重点产业研发计划——“基于变胞多指灵巧手的机器人灵巧作业关键技术研发”（500万）（主要完成人）**  
    Shenzhen Key Industrial R&D Program: "R&D of Key Technologies for Robotic Dexterous Manipulation Based on Metamorphic Multi-fingered Dexterous Hand" (RMB 5,000,000) (Major Contributor)
